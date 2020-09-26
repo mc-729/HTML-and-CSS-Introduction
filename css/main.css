@@ -1,0 +1,94 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    line-height: 37px;
+}
+/*
+Golden Ratio Calculation for Size
+960 / 1.618 = 593
+960 - 593 = 367
+To calculate vertical or horizontal spacing use the square root of the container
+*/
+#primary-links {
+    height: 86px;
+    line-height: 86px;
+}
+menu {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+#primary-links li {
+    display: inline;
+}
+#primary-links ul {
+    padding: 0;
+    margin: 0;
+}
+#main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+#content {
+    width: 544px;
+    padding-left: 23px;
+    padding-right: 23px;
+    float: left;
+    font-size: 16px;
+    line-height: 27px;
+}
+#sidebar {
+    width: 329px;
+    padding-top: 144px;
+    padding-left: 19px;
+    padding-right: 19px;
+    float: left;
+    font-size: 11px;
+    line-height: 18px;
+}
+#sidebar h1 {
+    font-size: 23px;
+    line-height: 36px;
+    margin-bottom: 18px;
+}
+
+#content h1 {
+    font-size: 33px;
+    line-height: 52px;
+    margin-bottom: 27px;
+}
+#footer {
+    clear: both;
+    text-align: center;
+}
+h2 {
+    font-size: 36px;
+    line-height: 57px;
+    margin-top: 60px;
+    margin-bottom: 23px;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 46px;
+    margin-top: 37px;
+    margin-bottom: 14px;
+}
+
+h4 {
+    font-size: 22px;
+    line-height: 37px;
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+.card {
+    border: 1px solid black;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-bottom: 19px;
+}
+.card .image {
+    width: 289px;
+}
